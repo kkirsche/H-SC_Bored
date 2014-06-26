@@ -434,13 +434,13 @@
   }
 
   .navbar-toggle {
-    border-color: $navbar-default-toggle-border-color;
+    border-color: $mediumOrange;
     &:hover,
     &:focus {
-      background-color: $navbar-default-toggle-hover-bg;
+      background-color: $yellowBackgroundColor;
     }
     .icon-bar {
-      background-color: $navbar-default-toggle-icon-bar-bg;
+      background-color: $darkOrange;
     }
   }
 
