@@ -13,8 +13,8 @@ module.exports = function(grunt) {
                     sourcemap: true
                 },
                 files: {
-                    'public/css/bootstrap.css' : 'public/scss/bootstrap.scss',
-                    'public/css/theme.css' : 'public/scss/theme.scss'
+                    'css/bootstrap.css' : 'scss/bootstrap.scss',
+                    'css/HSCBoredAutumn.css' : 'scss/HSCBoredAutumn.scss'
                 }
             }
         },
