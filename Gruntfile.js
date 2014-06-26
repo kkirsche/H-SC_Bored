@@ -14,7 +14,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/bootstrap.css' : 'scss/bootstrap.scss',
-                    'css/HSCBoredAutumn.css' : 'scss/HSCBoredAutumn.scss'
+                    'css/HSCBoredAutumn.css' : 'scss/HSCBoredAutumn.scss',
+                    'css/FontAwesome.css' : 'scss/font-awesome.scss'
                 }
             }
         },
