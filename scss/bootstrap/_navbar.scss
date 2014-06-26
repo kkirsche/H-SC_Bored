@@ -381,29 +381,35 @@
 
 // Default navbar
 .navbar-default {
-  background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
+  // background-color: $navbar-default-bg;
+  background-color: $lightOrange;
+  // border-color: $navbar-default-border;
+  border-color: $mediumOrange;
 
   .navbar-brand {
-    color: $navbar-default-brand-color;
+    // color: $navbar-default-brand-color;
+    color: $darkOrange;
     &:hover,
     &:focus {
-      color: $navbar-default-brand-hover-color;
+      //color: $navbar-default-brand-hover-color;
+      color: $darkOrange;
       background-color: $navbar-default-brand-hover-bg;
     }
   }
 
   .navbar-text {
-    color: $navbar-default-color;
+    // color: $navbar-default-color;
+    color: $darkOrange;
   }
 
   .navbar-nav {
     > li > a {
-      color: $navbar-default-link-color;
+      // color: $navbar-default-link-color;
+      color: $darkOrange;
 
       &:hover,
       &:focus {
-        color: $navbar-default-link-hover-color;
+        color: $yellowBackgroundColor;
         background-color: $navbar-default-link-hover-bg;
       }
     }
@@ -411,8 +417,10 @@
       &,
       &:hover,
       &:focus {
-        color: $navbar-default-link-active-color;
-        background-color: $navbar-default-link-active-bg;
+        //color: $navbar-default-link-active-color;
+        //background-color: $navbar-default-link-active-bg;
+        color: $yellowBackgroundColor;
+        background-color: $darkOrange;
       }
     }
     > .disabled > a {
@@ -438,7 +446,8 @@
 
   .navbar-collapse,
   .navbar-form {
-    border-color: $navbar-default-border;
+    //border-color: $navbar-default-border;
+    border-color: $mediumOrange
   }
 
   // Dropdown menu items
@@ -448,8 +457,10 @@
       &,
       &:hover,
       &:focus {
-        background-color: $navbar-default-link-active-bg;
-        color: $navbar-default-link-active-color;
+        //background-color: $navbar-default-link-active-bg;
+        //color: $navbar-default-link-active-color;
+        background-color: $darkOrange;
+        color: $yellowBackgroundColor;
       }
     }
 
@@ -460,8 +471,10 @@
           color: $navbar-default-link-color;
           &:hover,
           &:focus {
-            color: $navbar-default-link-hover-color;
-            background-color: $navbar-default-link-hover-bg;
+            //color: $navbar-default-link-hover-color;
+            //background-color: $navbar-default-link-hover-bg;
+            color: $lightOrange;
+            background-color: $darkOrange;
           }
         }
         > .active > a {
@@ -568,8 +581,10 @@
       &,
       &:hover,
       &:focus {
-        background-color: $navbar-inverse-link-active-bg;
-        color: $navbar-inverse-link-active-color;
+        //background-color: $navbar-inverse-link-active-bg;
+        //color: $navbar-inverse-link-active-color;
+        background-color: $mediumOrange;
+        color: $lightOrange;
       }
     }
 
@@ -577,7 +592,8 @@
       // Dropdowns get custom display
       .open .dropdown-menu {
         > .dropdown-header {
-          border-color: $navbar-inverse-border;
+          //border-color: $navbar-inverse-border;
+          border-color: $mediumOrange;
         }
         .divider {
           background-color: $navbar-inverse-border;
