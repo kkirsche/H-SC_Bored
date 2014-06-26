@@ -17,7 +17,18 @@ $yellowBackgroundColor: #fbf1cf;
 body {
     background: $yellowBackgroundColor url("../img/BG.jpg") no-repeat center top;
 }
-
+::-webkit-input-placeholder {
+   color: $darkOrange;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: $darkOrange;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $darkOrange;
+}
+:-ms-input-placeholder {
+   color: $darkOrange;
+}
 
 /*
 * === Header ===
