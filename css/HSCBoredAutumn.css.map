@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAiBA,UAAW,CACP,UAAU,CAAE,KAAK",
+"mappings": "AAgBA,IAAK,CACD,UAAU,CAAE,iDAAgE,CAYhF,UAAW,CACP,UAAU,CAAE,KAAK,CAErB,YAAa,CACT,aAAa,CAAE,IAAI",
 "sources": ["../scss/HSCBoredAutumn.scss"],
 "names": [],
 "file": "HSCBoredAutumn.css"

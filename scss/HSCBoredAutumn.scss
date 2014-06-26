@@ -8,13 +8,28 @@
 $lightOrange: #df7e47;
 $darkOrange: #9f4817;
 $warmWhite: #fffdf9;
+$yellowBackgroundColor: #fbf1cf;
+
 
 /*
-* === Spacing ===
+* === General Styles ===
 */
+body {
+    background: $yellowBackgroundColor url("../img/BG.jpg") no-repeat center top;
+}
+
+
 /*
-* — Header —
+* === Header ===
 */
+
+/*
+* — Above Navbar —
+*/
+//Add spacing at the top of the website above the logo
 .container {
     margin-top: 2.5em;
+}
+.aboveHeader {
+    margin-bottom: 10px;
 }
