@@ -38,7 +38,8 @@
   margin: 2px 0 0; // override default ul
   list-style: none;
   font-size: $font-size-base;
-  background-color: $dropdown-bg;
+  //background-color: $dropdown-bg;
+  background-color: $lightOrange;
   border: 1px solid $dropdown-fallback-border; // IE8 fallback
   border: 1px solid $dropdown-border;
   border-radius: $border-radius-base;
@@ -65,7 +66,8 @@
     clear: both;
     font-weight: normal;
     line-height: $line-height-base;
-    color: $dropdown-link-color;
+    //color: $dropdown-link-color;
+    color: $darkOrange;
     white-space: nowrap; // prevent links from randomly breaking onto new lines
   }
 }
@@ -75,8 +77,10 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $dropdown-link-hover-color;
-    background-color: $dropdown-link-hover-bg;
+    //color: $dropdown-link-hover-color;
+    //background-color: $dropdown-link-hover-bg;
+    color: $yellowBackgroundColor;
+    background-color: $darkOrange;
   }
 }
 
@@ -85,10 +89,12 @@
   &,
   &:hover,
   &:focus {
-    color: $dropdown-link-active-color;
+    //color: $dropdown-link-active-color;
     text-decoration: none;
     outline: 0;
-    background-color: $dropdown-link-active-bg;
+    //background-color: $dropdown-link-active-bg;
+    color: $yellowBackgroundColor;
+    background-color: $darkOrange;
   }
 }
 
@@ -210,4 +216,3 @@
     }
   }
 }
-
