@@ -17,6 +17,7 @@ $yellowBackgroundColor: #fbf1cf;
 body {
     background: $yellowBackgroundColor url("../img/BG.jpg") no-repeat center top;
 }
+
 ::-webkit-input-placeholder {
    color: $darkOrange;
 }
