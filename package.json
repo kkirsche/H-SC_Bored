@@ -1,0 +1,16 @@
+{
+  "name": "HSC-Bored",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "matchdep": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kkirsche/H-SC_Bored.git"
+  },
+  "author": "Kevin Kirsche",
+  "homepage": "http://razerdesign.com"
+}
