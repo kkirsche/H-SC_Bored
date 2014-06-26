@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Kevin Kirsche -- Lead Designer / Developer -- @kkirsche
 
 # THANKS
 
-    <name>
+    Hampden-Sydney College
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    HTML5, CSS3, SASS
+    Normalize.css, Bootstrap 3
+    jQuery, Modernizr, Grunt
