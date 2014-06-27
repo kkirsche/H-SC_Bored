@@ -72,6 +72,34 @@ body {
     font-size: 18px;
     padding: 10px;
 }
+.smallReadMoreButton {
+    background-color: $mediumOrange;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/*
+* — Events —
+*/
+.eventImage {
+    margin: 0;
+    padding: 0;
+}
+.eventWrapper {
+    background-color: $warmWhite;
+    border-radius: $generalBorderRadius;
+}
+.eventContent {
+    padding: 10px;
+}
+@media (min-width: 767px) {
+    .firstEventWrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 /*
 * — Footer —
 */
