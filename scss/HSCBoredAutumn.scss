@@ -55,4 +55,11 @@ body {
 */
 #inJumbotronSlider {
     padding-left: 0;
+    padding-right: 0;
+}
+.readMoreButton {
+    background-color: $mediumOrange;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
 }
