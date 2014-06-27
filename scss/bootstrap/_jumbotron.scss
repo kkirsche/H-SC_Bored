@@ -4,10 +4,12 @@
 
 
 .jumbotron {
-  padding: $jumbotron-padding;
+  //padding: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
   color: $jumbotron-color;
-  background-color: $jumbotron-bg;
+  //background-color: $jumbotron-bg;
+  background-color: $warmWhite;
+  overflow: auto;
 
   h1,
   .h1 {
@@ -28,11 +30,11 @@
   }
 
   @media screen and (min-width: $screen-sm-min) {
-    padding-top:    ($jumbotron-padding * 1.6);
-    padding-bottom: ($jumbotron-padding * 1.6);
+    //padding-top:    ($jumbotron-padding * 1.6);
+    //padding-bottom: ($jumbotron-padding * 1.6);
 
     .container & {
-      padding-left:  ($jumbotron-padding * 2);
+      //padding-left:  ($jumbotron-padding * 2);
       padding-right: ($jumbotron-padding * 2);
     }
 
