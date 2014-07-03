@@ -469,7 +469,7 @@
       // Dropdowns get custom display when collapsed
       .open .dropdown-menu {
         > li > a {
-          color: $navbar-default-link-color;
+          color: $darkOrange;
           &:hover,
           &:focus {
             //color: $navbar-default-link-hover-color;
