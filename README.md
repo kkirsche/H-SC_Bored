@@ -30,4 +30,4 @@ goto solution for student event management and discovery.
 
 ## How it looks
 ![H-SC Bored Top](http://i.imgur.com/N4VOqye.jpg)
-![H-SC Bored Bottom](http://i.imgur.com/FEefCEt)
+![H-SC Bored Bottom](http://i.imgur.com/FEefCEt.jpg)
