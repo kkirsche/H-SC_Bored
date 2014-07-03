@@ -152,12 +152,28 @@ body {
     background-color: $warmWhite;
     border-radius: $generalBorderRadius;
 }
+@media (max-width: 985px) {
+    .eventWrapper {
+        margin-top: 20px;
+        background-color: $warmWhite;
+        border-radius: $generalBorderRadius;
+    }
+}
 .eventContent {
     padding: 10px;
 }
 .eventSectionHeading {
     margin-top: 0;
     padding-top: 0;
+}
+
+/*
+* — Social Media —
+*/
+@media (max-width: 985px) {
+    #socialMedia {
+        padding: 10px;
+    }
 }
 
 /*
