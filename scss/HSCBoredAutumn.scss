@@ -170,10 +170,16 @@ body {
 /*
 * — Social Media —
 */
-@media (max-width: 985px) {
-    #socialMedia {
-        padding: 10px;
-    }
+#socialMedia {
+    padding: 10px;
+}
+
+/*
+* — Submit an Event —
+*/
+#submitAnEvent {
+    position: absolute;
+    left: -362px;
 }
 
 /*
