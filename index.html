@@ -415,9 +415,8 @@
         });
 
         //i is used to track the current position in the slider
-        var i = 1;
         //iMax is how many total events we have in the slider
-        var iMax = $(".sliderData").length;
+        var i = 1, iMax = $(".sliderData").length;
 
 
         //Could use slide.bs.carousel or slid.bs.carousel (slide happens before the event and slid happens after)
@@ -445,7 +444,7 @@
                     });
                 } else {
                     $('#sliderData' + i).fadeOut('medium', function () {
-                        i = $(".sliderData").length;  //since we have gotten back to the first item we have, reset to the last item and continue looping
+                        i = iMax;  //since we have gotten back to the first item we have, reset to the last item and continue looping
                         $('#sliderData' + i).fadeIn('medium');
                     });
                 }
