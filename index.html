@@ -432,7 +432,7 @@
                     });
                 } else {
                     $('#sliderData' + i).fadeOut('medium', function () {
-                        i = 1;
+                        i = 1; //since we have exceeded the number of items we have, reset to the first and continue looping
                         $('#sliderData' + i).fadeIn('medium');
                     });
                 }
@@ -445,7 +445,7 @@
                     });
                 } else {
                     $('#sliderData' + i).fadeOut('medium', function () {
-                        i = $(".sliderData").length;
+                        i = $(".sliderData").length;  //since we have gotten back to the first item we have, reset to the last item and continue looping
                         $('#sliderData' + i).fadeIn('medium');
                     });
                 }
