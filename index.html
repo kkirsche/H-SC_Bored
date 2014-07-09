@@ -388,45 +388,50 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
-            $('.carousel').carousel({
-                interval: 4500
-            });
+        $('.carousel').carousel({
+            interval: 4500
+        });
 
-            //i is used to track the current position in the slider
-            var i = 1;
-            //iMax is how many total events we have in the slider
-            var iMax = $(".sliderData").length;
+        //i is used to track the current position in the slider
+        var i = 1;
+        //iMax is how many total events we have in the slider
+        var iMax = $(".sliderData").length;
 
 
-            //Could use slide.bs.carousel or slid.bs.carousel (slide happens before the event and slid happens after)
-            $('.carousel').on('slide.bs.carousel', function(eventInformation) {
-                if (eventInformation['direction'] == 'left') {
-                    if (i < iMax) {
-                        $('#sliderData' + i).fadeOut('medium', function() {
-                            i++;
-                            $('#sliderData' + i).fadeIn('medium');
-                        });
-                    } else {
-                        $('#sliderData' + i).fadeOut('medium', function() {
-                            i = 1;
-                            $('#sliderData' + i).fadeIn('medium');
-                        });
-                    }
+        //Could use slide.bs.carousel or slid.bs.carousel (slide happens before the event and slid happens after)
+        $('.carousel').on('slide.bs.carousel', function (eventInformation) {
+            "use strict";
+            switch (eventInformation.direction) {
+            case "left":
+                if (i < iMax) {
+                    $('#sliderData' + i).fadeOut('medium', function () {
+                        i++;
+                        $('#sliderData' + i).fadeIn('medium');
+                    });
+                } else {
+                    $('#sliderData' + i).fadeOut('medium', function () {
+                        i = 1;
+                        $('#sliderData' + i).fadeIn('medium');
+                    });
                 }
-                else {
-                    if (i > 1) {
-                        $('#sliderData' + i).fadeOut('medium', function() {
-                            i--;
-                            $('#sliderData' + i).fadeIn('medium');
-                        });
-                    } else {
-                        $('#sliderData' + i).fadeOut('medium', function() {
-                            i = $(".sliderData").length;
-                            $('#sliderData' + i).fadeIn('medium');
-                        });
-                    }
+                break;
+            case "right":
+                if (i > 1) {
+                    $('#sliderData' + i).fadeOut('medium', function () {
+                        i--;
+                        $('#sliderData' + i).fadeIn('medium');
+                    });
+                } else {
+                    $('#sliderData' + i).fadeOut('medium', function () {
+                        i = $(".sliderData").length;
+                        $('#sliderData' + i).fadeIn('medium');
+                    });
                 }
-            });
+                break;
+            default:
+                alert("You moved the slider a direction other than left or right. We aren't sure how you did this though...");
+            } //end switch statement
+        });
         </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
